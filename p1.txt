@@ -1,6 +1,6 @@
 esta es la historia inicial
 
-para
+para poder hacer y 
 
 probar pgit
 
@@ -9,3 +9,5 @@ y tambien github
 nacido  en Bucay
 
 vivi en Bucay
+
+hola mundo
