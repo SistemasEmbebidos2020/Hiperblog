@@ -1,0 +1,13 @@
+git init
+git add
+git commit -m "version1"
+git status
+git diff version1 version2
+git log
+
+checkout --para traer los ultimos cambios a tu carpeta desde tu repositorio
+
+
+git reset codigolargo --hard    //volver al codigo original
+
+git push ////enviar los documentos al repositorio remoto
