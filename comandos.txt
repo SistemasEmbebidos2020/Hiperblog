@@ -23,3 +23,14 @@ git fetch  //traer al repositorio local
 
 
 git push ////enviar los documentos al repositorio remoto
+
+
+CREAR CLAVES PARA COMUNICACION
+
+	ssh-keygen -t rsa -b 4096 -C "sistemasembebidos2020@gmail.com"
+
+VERIFICAR QUE ESTE HABILITADO SSH
+
+	eval $(ssh agent -s)
+		la respuesta debe ser algo como: 
+			Agente pid 2762
