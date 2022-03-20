@@ -5,7 +5,11 @@ git status
 git diff version1 version2
 git log
 
+<<<<<<< HEAD
 NO  checkout --para traer los ultimos cambios a tu carpeta desde tu repositorio
+=======
+git checkout nombre  --para cambiar de lugar de cambios de los archivos
+>>>>>>> cabecera
 
 
 git reset codigolargo --hard    //volver al codigo original
