@@ -1,15 +1,15 @@
 git init
 git add
 git commit -m "version1"
+
+git commit -am "nombre de version"    -----hacer add y commit al mismo  tiempo
 git status
 git diff version1 version2
-git log
 
-<<<<<<< HEAD
-NO  checkout --para traer los ultimos cambios a tu carpeta desde tu repositorio
-=======
+git log ----- revisar los cambios de las versiones
+
+
 git checkout nombre  --para cambiar de lugar de cambios de los archivos
->>>>>>> cabecera
 
 
 git reset codigolargo --hard    //volver al codigo original
@@ -17,6 +17,7 @@ git reset codigolargo --hard    //volver al codigo original
 
 
 git branch nombre ///////para crear una rama con un nombre especifico dado por el programador
+
 
 git fetch  //traer al repositorio local
 
