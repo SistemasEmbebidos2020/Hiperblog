@@ -41,3 +41,8 @@ crear alias
 alias arbol="git log --all --graph --decorate --oneline"
 
 
+eliminar tags
+git tad -d nombredetag
+git push origin :refs/tags/dormido
+
+
