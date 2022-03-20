@@ -34,3 +34,10 @@ VERIFICAR QUE ESTE HABILITADO SSH
 	eval $(ssh agent -s)
 		la respuesta debe ser algo como: 
 			Agente pid 2762
+
+
+crear alias
+
+alias arbol="git log --all --graph --decorate --oneline"
+
+
