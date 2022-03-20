@@ -1,0 +1,48 @@
+git init
+git add
+git commit -m "version1"
+
+git commit -am "nombre de version"    -----hacer add y commit al mismo  tiempo
+git status
+git diff version1 version2
+
+git log ----- revisar los cambios de las versiones
+
+
+git checkout nombre  --para cambiar de lugar de cambios de los archivos
+
+
+git reset codigolargo --hard    //volver al codigo original
+
+
+
+git branch nombre ///////para crear una rama con un nombre especifico dado por el programador
+
+
+git fetch  //traer al repositorio local
+
+
+git push ////enviar los documentos al repositorio remoto
+
+
+CREAR CLAVES PARA COMUNICACION
+
+	ssh-keygen -t rsa -b 4096 -C "sistemasembebidos2020@gmail.com"
+
+VERIFICAR QUE ESTE HABILITADO SSH
+
+	eval $(ssh agent -s)
+		la respuesta debe ser algo como: 
+			Agente pid 2762
+
+
+crear alias
+
+alias arbol="git log --all --graph --decorate --oneline"
+
+
+eliminar tags
+git tad -d nombredetag
+git push origin :refs/tags/dormido
+
+
